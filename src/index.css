@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+@layer base {
+  html, body {
+    font-family: Arial, Verdana, system-ui, -apple-system, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    background-color: #FFF8E7;
+    color: #123D2C;
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  /* Accessible focus rings */
+  :focus-visible {
+    outline: 4px solid #FF7A00;
+    outline-offset: 3px;
+  }
+}
+
+/* Custom Aguayo Stripe decorative pattern */
+.aguayo-stripe {
+  height: 6px;
+  width: 100%;
+  background: repeating-linear-gradient(
+    90deg,
+    #198C4A 0px, #198C4A 20px,
+    #FF7A00 20px, #FF7A00 32px,
+    #FFD43B 32px, #FFD43B 40px,
+    #00A6A6 40px, #00A6A6 52px,
+    #C62828 52px, #C62828 64px
+  );
+}
+
+/* Hand pointer soft gentle wave animation */
+@keyframes pointHand {
+  0%, 100% {
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    transform: translateY(-8px) scale(1.08);
+  }
+}
+
+.animate-pointing-hand {
+  animation: pointHand 1.2s ease-in-out 2 forwards;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-pointing-hand {
+    animation: none !important;
+  }
+}
+
+/* Base button minimum touch size */
+.btn-large {
+  min-height: 62px;
+  font-size: 20px;
+  font-weight: bold;
+}
+

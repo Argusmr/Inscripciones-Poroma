@@ -1,0 +1,6 @@
+{
+  "name": "CEA Micaela Bastidas",
+  "description": "Preinscripción accesible para jóvenes y adultos del CEA Micaela Bastidas (Poroma - Chuquisaca, Bolivia).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
