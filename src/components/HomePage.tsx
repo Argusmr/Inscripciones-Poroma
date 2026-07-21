@@ -34,11 +34,11 @@ export const HomePage: React.FC<HomePageProps> = ({
         {/* 1. ESCUDO OFICIAL GRANDE */}
         <div className="w-full px-2 py-1 flex items-center justify-center">
           <img
-            src="/escudo-final-2026.png"
-            alt="Escudo Oficial del Centro de Educación Alternativa CEA Micaela Bastidas"
+            src="/escudo-cea-julio-2026.png"
+            alt="Escudo oficial del CEA Micaela Bastidas"
             className="w-full h-auto max-h-[210px] object-contain drop-shadow-md"
             onError={(e) => {
-              (e.target as HTMLImageElement).src = '/escudo-final-2026.png';
+              (e.target as HTMLImageElement).src = '/escudo-cea-julio-2026.png';
             }}
           />
         </div>
