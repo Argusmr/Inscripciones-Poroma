@@ -34,19 +34,24 @@ export const HomePage: React.FC<HomePageProps> = ({
         {/* 1. ESCUDO OFICIAL GRANDE */}
         <div className="w-full px-2 py-1 flex items-center justify-center">
           <img
-            src="/logo-cea.png"
+            src="/escudo-cea-definitivo.png"
             alt="Escudo Oficial del Centro de Educación Alternativa CEA Micaela Bastidas"
             className="w-full h-auto max-h-[210px] object-contain drop-shadow-md"
             onError={(e) => {
-              (e.target as HTMLImageElement).src = '/logo-cea.svg';
+              (e.target as HTMLImageElement).src = '/escudo-cea-definitivo.png';
             }}
           />
         </div>
 
-        {/* 2. "Nunca es tarde para aprender" */}
-        <h1 className="text-2xl sm:text-3xl font-black text-[#123D2C] leading-tight uppercase tracking-tight">
-          “Nunca es tarde para aprender”
-        </h1>
+        {/* 2. Frase de Portada */}
+        <div className="space-y-1">
+          <h1 className="text-2xl sm:text-3xl font-black text-[#123D2C] leading-tight uppercase tracking-tight">
+            ¡INSCRÍBETE YA!
+          </h1>
+          <p className="text-lg sm:text-xl font-extrabold text-[#FF7A00] uppercase tracking-wide">
+            POROMA TE ESPERA
+          </p>
+        </div>
 
         {/* 3. CUENTA REGRESIVA HASTA EL 10 DE AGOSTO DE 2026 */}
         <div className="w-full bg-white rounded-2xl p-3.5 border-3 border-[#198C4A] shadow-md space-y-1.5">

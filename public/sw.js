@@ -2,8 +2,7 @@ const CACHE_NAME = 'cea-micaela-v1';
 const ASSETS_TO_CACHE = [
   '/',
   '/index.html',
-  '/logo-cea.png',
-  '/logo-cea.svg',
+  '/escudo-cea-definitivo.png',
   '/icon-192.png',
   '/icon-512.png',
   '/manifest.json'
