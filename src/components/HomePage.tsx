@@ -59,8 +59,8 @@ export const HomePage: React.FC<HomePageProps> = ({
             Inscripciones hasta el 10 de agosto
           </p>
 
-          <div className="bg-[#FFD43B] py-2 px-4 rounded-xl border border-[#FF7A00] inline-block w-full">
-            <span className="text-xl sm:text-2xl font-black text-[#123D2C] tracking-wide block">
+          <div className="bg-[#FFD43B] py-1.5 px-3 rounded-xl border border-[#FF7A00] inline-block w-full">
+            <span className="text-sm sm:text-base font-bold text-[#123D2C] tracking-wide block">
               {countdown.message}
             </span>
           </div>
