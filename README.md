@@ -93,3 +93,4 @@ Estructura de la tabla `preinscripciones`:
 | `codigo_preinscripcion` | text | Código único `CEA-XXXXXX` |
 
 *Nota de seguridad:* La política RLS en Supabase solo permite `INSERT` con el rol público `anon`.
+Actualización del escudo
